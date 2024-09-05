@@ -1,0 +1,21 @@
+
+@media screen and (max-width: 768px) {
+    .howWork-head-contain{ 
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: normal;
+        width: 100%;
+    }
+
+    .howWork-des{
+        display: block;
+        opacity: 1;
+        width: 80%;
+    }
+
+    .howWork-head{
+        font: 32px "headFont";
+        letter-spacing: -2px;
+    }
+}

@@ -1,0 +1,48 @@
+
+@media screen and (max-width: 1200px){
+    .aboutCntnt{
+        padding: 100px 0;
+    }
+    
+    .about-head .aboutHead-big{
+        font: 36px "desFont-reg";
+        line-height: 35px;
+    }
+    
+    .aboutHead-sml{
+        font: 18px "desFont-reg";
+        padding-right: 100px;
+        display: inline-block;
+        transform: translateY(-10px);
+        text-transform: lowercase;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    
+    .aboutHead-sml{
+        font: 18px "desFont-reg";
+        padding-right: 50px;
+        display: inline-block;
+        transform: translateY(-10px);
+        text-transform: lowercase;
+    }
+}
+
+
+@media screen and (max-width: 480px){
+    
+    .about-head .aboutHead-big{
+        font: 28px "desFont-reg";
+        line-height: 30px;
+    }
+
+    .aboutHead-sml{
+        font: 14px "desFont-reg";
+        padding-right: 50px;
+        display: inline-block;
+        transform: translateY(-10px);
+        text-transform: lowercase;
+    }
+}

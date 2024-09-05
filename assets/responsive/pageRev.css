@@ -1,0 +1,21 @@
+
+@media screen and (max-width: 849px) {
+    .campSec-head .campHead-txt{
+        text-align: center;
+        font: 32px "headFont";
+    }
+}
+@media screen and (max-width: 768px) {
+    .campSec-cntnt{
+        flex-direction: column;
+    }
+
+    .campSec-img{
+        padding-bottom: 10px;
+    }
+
+    .featureHead{
+        text-align: center;
+        font: 32px "headFont";
+    }
+}

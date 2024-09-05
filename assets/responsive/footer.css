@@ -1,0 +1,18 @@
+@media screen and (max-width: 768px) {
+    .footerCntnt{
+        flex-direction: column;
+    }
+
+    .footerRight .footerRight-head{
+        font: 26px "headFont";
+    }
+
+    .footerLeft .notifyBtn{
+        width: 150px;
+        margin-top: 0px;
+    }
+    
+    .footerRight-elem-grp .rightElem{
+        font: 16px "desFont-reg";
+    }
+}

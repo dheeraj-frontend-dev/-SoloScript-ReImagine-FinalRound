@@ -1,0 +1,62 @@
+
+@media screen and (max-width: 1024px) {
+    .hero-img-bx{
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        position: relative;
+        margin: 0 auto;
+    }
+    
+    .hero-img-bx .blendImg{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .heroCntnt .heroHead{
+        text-align: center;
+        font: 36px "headFont";
+        line-height: 30px;
+    }
+    .heroCntnt .heroDes{
+        width: 80%;
+    }
+
+    .hero-img-bx img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+@media screen and (max-width: 480px) {
+    .heroCntnt-main{
+        width: 100%;
+        height: 95vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    
+        padding-top: 100px;
+    }
+
+    
+    .heroCntnt .heroHead{
+        text-align: center;
+        font: 36px "headFont";
+        line-height: 30px;
+    }
+    .heroCntnt .heroDes{
+        width: 90%;
+    }
+
+    .hero-img-bx img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .heroBot-cntnt p{
+        font-size: 12px;
+    }
+}
